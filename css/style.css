@@ -1,0 +1,180 @@
+body{
+  margin:0; /*All the four margins will be 0px*/
+  text-align: center;
+  font-family:'Nunito','Sacramento','WindSong',serif;
+  font-size: 150%;
+  color: #40514E;
+}
+
+p{
+  line-height: 2;
+}
+
+hr{
+  width:5%;
+  color: #EAF6F6;
+  border-style:dotted none none;
+  border-width: 10px;
+  margin: 100px auto;
+}
+h1{
+  font-family: 'Sacramento', cursive;
+  font-size: 5rem;
+  width : 25%;
+  margin: 0 auto;
+  color: #66BFBF;
+    }
+
+h2{
+  font-size: 3rem;
+  width : 50%;
+  margin: 0 auto;
+  font-weight: bold;
+  color: #66BFBF;
+  }
+
+h3{
+  color: #11999E;
+}
+
+.intro{
+  width: 50%;
+  margin: 0 auto;
+}
+
+a{
+  color: #11999E;
+  font-weight: bolder;
+}
+
+.Name{
+
+}
+
+
+.top-container{
+  position:relative;
+  padding :100px;
+  padding-bottom: 0;
+  background-color: #E4F9F5;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left:300px;
+  bottom: 300px;
+
+}
+
+.profilePicture{
+  width: 200px;
+  height: 200px;
+}
+
+.skills{
+  width : 50%;
+  margin: 20px auto;
+  text-align: left;
+}
+
+.coding{
+  padding: 30px;
+}
+
+.mathematics{
+  padding: 30px;
+
+}
+.coding-img{
+  width: 30%;
+  float:left;
+  margin-right: 20px;
+}
+
+/* This will override the float property and makes the description below the image
+.codingDescription{
+  clear:left;
+}*/
+
+.mathematics-img{
+  width: 30%;
+  float: right;
+  margin-left: 20px;
+}
+
+.pizza-img{
+  width: 400px;
+  height: 300px;
+}
+
+/*.myFavouritefood{
+  width: 500px;
+  height: 500px;
+}*/
+
+.middle-container{
+  margin:50px;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 30px;
+}
+
+.copyRight{
+  margin-bottom: 0px;
+  color:#EAF6F6;
+}
+
+.footer-link{
+  color:#11999E;
+  display:inline-block;
+  margin: 20px;
+  text-decoration: none;
+}
+
+.footer-link:hover{
+  color:#EAF6F6;
+  line-height: 2;
+}
+
+.dev{
+  text-decoration: underline;
+}
+
+.dev:hover{
+  background-color: gold;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family:'Nunito','Sacramento','WindSong',serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin:10px;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
